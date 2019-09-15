@@ -1,0 +1,17 @@
+.slide,.video_warp{padding: 10rpx}
+.nav_warp{}
+.nav{white-space: nowrap;padding: 5rpx 0;}
+.nav_item{padding: 20rpx 45rpx;font-size: 30rpx;display: inline-block;}
+.nav_item.active{border-bottom: 5rpx solid #de688d;}
+.slide swiper{height: 220rpx}
+.slide navigator{width: 100%;height: 100%}
+.slide navigator image{width: 100%;height: 100%}
+
+
+.video_warp{display: flex;flex-wrap: wrap;justify-content: space-between}
+.video_item{width: 48%;}
+.video_image{position: relative;}
+.video_image image{width: 100%;}
+.video_image .playCount{position: absolute;left: 15rpx;bottom: 8rpx;color: #fff;background-color:rgba(0,0,0,0.6);}
+.video_image .commentCount{position: absolute;right: 15rpx;bottom: 8rpx;color: #fff;background-color:rgba(0,0,0,0.6);}
+.video_item .video_title{display: -webkit-box; width: 100%;white-space: normal;text-overflow: ellipsis;overflow: hidden;-webkit-line-clamp: 2;-webkit-box-orient: vertical}

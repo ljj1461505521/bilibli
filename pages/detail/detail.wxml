@@ -1,0 +1,6 @@
+<view class="main">
+   <mytitle></mytitle> 
+   <view>
+       <video class="video_player" src="{{videoinfo.videoSrc}}"></video>
+   </view>
+</view>
